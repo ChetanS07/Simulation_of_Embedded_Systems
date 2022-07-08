@@ -240,17 +240,17 @@ int main(){
 	
 	
 // Creating File for Data
-	char locationOfData[200] = "/home/chetans/Documents/"; // location of the file.
-	char DataFileName[50] = "test"; // name of the text file.
-	char str[250] = "";
+// 	char locationOfData[200] = ""; // location of the file.
+// 	char DataFileName[50] = "test"; // name of the text file.
+// 	char str[250] = "";
 	
-	char fileName[254] = "";
-	strcpy(str,locationOfData);
-	strcat(str,DataFileName);
-	sprintf(fileName,"%s.txt",str);
+// 	char fileName[254] = "";
+// 	strcpy(str,locationOfData);
+// 	strcat(str,DataFileName);
+// 	sprintf(fileName,"%s.txt",str);
 	
 
-	FILE *fbook = fopen(fileName,"r");
+	FILE *fbook = fopen("test.txt","r");
 	MicroController *m;
 	
 	int choice;
